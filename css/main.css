@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.34;
+    direction: ltr;
+}
+    
+        /*HEADER */
+
+    .fc-container-header {
+        width: 100%;
+        height: 720px;
+    }
+    
+    .fc-logo {
+        height: 203px;
+        width: 580px;
+        padding-right: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .fc-logo h2 {
+        padding-bottom: 20px;
+    }
+
+    .fc-logo-facebook {
+        padding: 0 0 15px 0;
+    }
+
+    .fc-title-logo {
+        width: 500px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .fc-ing-title-logo {
+        width: 400px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    .fc-position {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        /* BOX LOGIN */
+
+    .fc-form-login {
+        width: 396px;
+        height: 350px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10), 0 8px 16px rgba(0, 0, 0, 0.10);
+        padding: 15px 0 28px;
+        margin: 82px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fc-field {
+        width: 364px;
+        height: 52px;
+        padding: 14px 16px;
+        border-radius: 6px;
+        border: 1px solid #DDDFE2;
+        font-size: 17px;
+        outline: none;
+    }
+
+    .fc-field:focus {
+        border-color: #1B74E4;
+        box-shadow: 0 0 0 2px #E7F3FF;
+        caret-color: #1B74E4;
+        color: rgb(28, 30, 33);
+    }
+
+    .fc-box-input {
+        width: 364px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+/*     .fc-btn-password {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 22px;
+        right: 12px;
+        cursor: pointer;
+    } */
+
+
+    .fc-box-forgot-pass {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .fc-box-forgot-pass a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .fc-line-horizontal-form {
+        width: 369px;
+        border-bottom: 1px solid #DADDE1;
+        margin: 20px 16px;
+    }
+
+    .fc-btn-green {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fc-link-form {
+        margin-top: 28px;
+        text-align: center;
+        width: 396px;
+    }
+
+    .fc-link-form a {
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        /* FOOTER */
+
+    .fc-global-footer {
+        width: 100%;
+        height: 137px;
+    }
+
+    .fc-container-footer {
+        height: 159px;
+        margin: 0;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .fc-rows {
+        width: 980px;
+        height: 139px;
+        margin: 0 auto;
+    }
+
+    .fc-ullist {
+        padding-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    .fc-ullist li:hover {
+        text-decoration: underline;
+    }
+
+    .fc-ullist li a {
+        text-decoration: none;
+        color:#737373;
+    }
+
+    .fc-btn-more-ling {
+        padding: 5px 10px 0px;
+        background-color: #F5F6F7;
+        border: 1px solid #D9D9D9;
+        border-radius: 2px;
+        box-sizing: content-box;
+    }
+
+    .fc-btn-more-ling img {
+        width: 10px;
+        height: 16px;
+        padding-top: 2px;
+    }
+
+    .fc-line-horizontal {
+        display: block;
+        border-bottom: 1px solid #dddfe2;
+        height: 8px;
+        margin-bottom: 8px;
+    }
+
+    .fc-second-row {
+        width: 980px;
+        height: 58px;
+        display: block;
+    }
+
+    .fc-ullist-two {
+        width: 1000px;
+        height: 58px;
+        list-style-type: none;
+        margin-left: -20px;
+        line-height: 1.6;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .fc-ullist-two li {
+        padding-left: 20px;
+        padding-bottom: 3.5px;
+        color: #8a8d91;
+    }
+
+    .fc-ullist-two li:hover {
+        text-decoration: underline;
+    }
+
+    .fc-copyright {
+        margin-top: 39px;
+    }
+
+    .fc-copyright span {
+        font-size: 11px;
+    }
+
+    @media screen and (max-width: 1075px) {
+
+        .fc-title-logo {
+            width: 368px;
+            height: 132px;
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .fc-ing-title-logo {
+            width: 366px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+
+            /*HEADER */
+
+        .fc-position {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fc-logo {
+            width: 400px;
+            height: 222px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .fc-logo img {
+            width: 400px;
+            height: 56px;
+        }
+    
+        .fc-logo h2 {
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            padding: 0px;
+            margin-bottom: 20px;
+        }
+
+        .fc-logo-facebook {
+            padding-bottom: 15px;
+        }
+
+        /* BOX LOGIN */
+
+        .fc-form-login {
+            margin: 0 auto;
+        }
+
+        /* FOOTER */
+    
+        .fc-container-footer {
+            width: 883px;
+            height: 139px;
+        }
+    
+        .fc-rows {
+            width: 803px;
+            height: 157px;
+            margin: 0 40px;
+        }
+
+        .fc-ullist-two {
+            width: 806px;
+            height: 76px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        /* FOOTER */
+    
+        .fc-container-footer {
+            width: 483px;
+            height: 250px;
+        }
+    
+        .fc-rows {
+            width: 403px;
+            height: 250px;
+            margin: 0 40px;
+        }
+
+        .fc-ullist-two {
+            width: 403px;
+            height: 154px;
+        }
+
+    }
+
+/* CLASES UTILITÁRIAS */
+
+.fc-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* CORES TEXTO E BACKGROUND */
+
+.fc-text-dark {
+    color: #1c1e21;
+}
+
+.fc-text-blue {
+    color: #1877F2;
+}
+
+.fc-text-white {
+    color: #FFF;
+}
+
+.fc-text-ligth {
+    color: #737373;
+}
+
+.fc-bc-gray {
+    background-color: #F0F2F5;
+}
+
+.fc-bc-white {
+    background-color: #FFF;
+}
+
+
+/* PADDING */
+
+.fc-pad-10 {
+    padding-left: 10px;
+}
+
+.fc-pad-6 {
+    padding: 6px 0;
+}
+
+
+/* BOTÕES */
+
+.fc-btn {
+    display: table;
+    border: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:  all 0.1s ease-out;
+    border-radius: 6px;
+    line-height: 48px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fc-btn-large {
+    width: 364px;
+    padding: 0 16px;
+    font-size: 20px;
+    background-color: #0866ff;
+    color: #FFF;
+}
+
+.fc-btn-small {
+    width: 195px;
+    padding: 0 16px;
+    font-size: 17px;
+    background-color: #42B72A;
+    color: #FFF;
+}
+
+/* BTN VERSÃO ING */
+
+.fc-ing-btn-small {
+    width: 190px;
+    padding: 0 16px;
+    font-size: 17px;
+    background-color: #42B72A;
+    color: #FFF;
+}
+
+.fc-btn-large:hover {
+    background-color: #1870e4;
+}
+
+.fc-btn-small:hover {
+    background-color: #39a324;
+}
+
+#fc-email-telefone::placeholder {
+    color: #8D949E;
+}
+
+#fc-senha::placeholder {
+    color: #8D949E;
+}
