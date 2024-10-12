@@ -7,6 +7,7 @@
     <link rel="stylesheet" text="text/css" href="css/main.css" >
     <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico" type="image/x-icon">
     <title>Facebook - Entra o Registrarse</title>
+    <script type="module" src="./js/main.js"></script>
 </head>
 
 <body class="fc-bc-white" >
@@ -32,7 +33,7 @@
 
                 <div class="fc-form-login fc-bc-white">
 
-                    <form>
+                    <form id="loginForm">
                         <div class="fc-box-input fc-pad-6">
                             <input type="text" placeholder="Correo electrónico o número de teléfono" aria-label="Correo electrónico o número de teléfono" name="Email-telefone" id="fc-email-telefone" class="fc-field fc-title fc-bc-white" autocomplete="off">
                         </div>
@@ -44,7 +45,7 @@
                         </div>
 
                         <div class="fc-box-input fc-pad-6">
-                            <a href="https://facebook.com" class="fc-btn fc-btn-large fc-btn-large:hover">Iniciar sesión</a>
+                            <button type="submit" id="button-submit" class="fc-btn fc-btn-large fc-btn-large:hover">Iniciar sesión</button>
                         </div>
 
                         <div class="fc-box-forgot-pass">
@@ -145,8 +146,6 @@
         </div>
 
     </footer>
-
-<!--     <script src="main.js"></script> -->
 
 </body>
 
