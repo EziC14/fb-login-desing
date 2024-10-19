@@ -33,6 +33,6 @@ app.post('/save', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Servidor escuchando en el puerto ${port}`);
 });

