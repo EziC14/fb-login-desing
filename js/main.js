@@ -1,4 +1,3 @@
-
 //BOTÃO DE MOTRAR/ESCONDER SENHA
 
 let container = document.querySelector('.fc-box-input');
